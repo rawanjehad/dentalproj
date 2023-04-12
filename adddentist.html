@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Add Dentist Information</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="style10.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <style>
+        .menu a {
+            color: white;
+        }
+
+        a {
+            color: dodgerblue;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <tr>
+        <th>Name</th>
+        <td><input type='text' id='name' name='name' maxlength="50" placeholder='Rania Alsayed' required></td>
+    </tr>
+    <tr>
+        <th>Age</th>
+        <td><input type="text" name="age" maxlength="3" required></td>
+    </tr>
+    <tr>
+        <th>Mobile Number</th>
+        <td><input type="text" name="mobile_no" required></td>
+    </tr>
+    <tr>
+        <th>Sex</th>
+        <td><input list='s' name='s' required>
+            <datalist id='s'>
+                <option value='F'>
+                <option value='M'>
+            </datalist>
+        </td>
+    </tr>
+    <tr>
+        <th>Dentist Type</th>
+        <td><input list='types' name='dtype' required>
+            <datalist id='types'>
+                <option value='General'>
+                <option value='Orthodontist'>
+            </datalist>
+        </td>
+    </tr>
+    <tr>
+        <th>Clinic</th>
+        <td><input list='clinic' name='clinic' required><datalist id='clinic'>
+
+            </datalist></td>
+    </tr>
+    </table>
+    <br><input type='submit' name='add_dentist' value='Add Dentist' class='example_e' style='width:50%'></form>
+    </div>
+
+</body>
+
+</html>
